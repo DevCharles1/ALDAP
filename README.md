@@ -69,12 +69,13 @@ class LocationController extends GetxController {
   }
   ```
   * App Screenshot
+  <img src="https://github.com/DevCharles1/ALDAP/blob/main/AppImages/code2.PNG?raw=true">
   
+ <img src="https://github.com/DevCharles1/ALDAP/blob/main/AppImages/codde.PNG?raw=true">
   
+  * App Dependencies
   
-  
-  
-  
+  <img src="https://github.com/DevCharles1/ALDAP/blob/main/AppImages/code.PNG?raw=true">
   
   # Algorand Wallet
 
