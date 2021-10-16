@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "847706381486",
+    "project_id": "aldap-4f8f1",
+    "storage_bucket": "aldap-4f8f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847706381486:android:c993d5808d0656198c213f",
+        "android_client_info": {
+          "package_name": "com.razaq.tech.aldap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847706381486-gcofaelcehmsiukakfa2bna2d3m2lt49.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.razaq.tech.aldap",
+            "certificate_hash": "bc4ffa35ef7174c496e7203248f3a1a528ff5a70"
+          }
+        },
+        {
+          "client_id": "847706381486-gu9b2lb9ch4eh5u6n99l9014ig7gi0oj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.razaq.tech.aldap",
+            "certificate_hash": "2b257376f1e964788965993064e1f6b0b293ba8f"
+          }
+        },
+        {
+          "client_id": "847706381486-re8p85ifjo9lnsrtnbppbqou6o4ibt5q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDINRX--LJyETV153wcTuryYB2YWXUUicg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "847706381486-re8p85ifjo9lnsrtnbppbqou6o4ibt5q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
