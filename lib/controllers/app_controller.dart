@@ -40,7 +40,8 @@ class AppController extends GetxController {
     pickUpDeliveryMethod.value = false;
     noContactDeliveryMethod.value = true;
   }
-
+// this decorate the set
+  
   changeWeightContainer() {
     lbsWeight.value = !lbsWeight.value;
     kgWeight.value = !kgWeight.value;
