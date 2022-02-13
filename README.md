@@ -80,7 +80,7 @@ class LocationController extends GetxController {
   # Algorand Wallet
 
 ```
-final apiKey = 'HF4Gvj8b4y2jzH5fAWCN7aEXD61Hn5ru3HblHcpf';
+final apiKey = 'HF4Gvj8b4y2jzH5fAxxxxxxxxxxxEXD61Hn5ru3HblHcpf';
   final algodClient = AlgodClient(
     apiUrl: PureStake.TESTNET_ALGOD_API_URL,
     apiKey: apiKey,
@@ -102,6 +102,19 @@ final apiKey = 'HF4Gvj8b4y2jzH5fAWCN7aEXD61Hn5ru3HblHcpf';
  <img src="https://github.com/DevCharles1/ALDAP/blob/main/AppImages/11.png?raw=true">
   <img src="https://github.com/DevCharles1/ALDAP/blob/main/AppImages/12.png?raw=true">
    <img src="https://github.com/DevCharles1/ALDAP/blob/main/AppImages/13.png?raw=true">
-   
+ 
+ ```  
+ AccountInformation info = await _algorandController.algorand
+          .getAccountByAddress(userController.userData.value.publicAddress);
 
-  
+      print(info.amount);
+      print(info.amountWithoutPendingRewards);
+      //Method 2 to get balance
+      balance = await _algorandController.algorand.getBalance(info.address);
+
+      setState(() {});
+      print("=====================-------------============ihf");
+      print(balance);
+    } catch (e) {
+      print(e);
+  ```
